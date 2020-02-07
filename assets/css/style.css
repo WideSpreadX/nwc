@@ -164,6 +164,8 @@ body {
   border-bottom: groove 5px black;
   box-shadow: 0 0 60px rgba(207, 117, 14, 0.699),
     inset -20px 0 60px rgba(184, 145, 18, 0.616);
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 .main-header-left {
   padding: 5px;
@@ -192,6 +194,8 @@ body {
   border-radius: 50%;
   color: gold;
   text-shadow: 0 0 2px white;
+  border: groove 2px gold;
+  box-shadow: inset 0 0 6px rgba(255, 255, 0, 0.589), 0 0 1px white;
 }
 .thumb-menu {
   position: fixed;
@@ -230,7 +234,7 @@ body {
   right: -25px;
   background: #ddd;
   border-radius: 50%;
-  box-shadow: -3px -3px 2px rgba(255, 217, 0, 0.76);
+  box-shadow: -2px -2px 2px rgba(206, 177, 15, 0.76);
 }
 .thumb-menu-inner-wrapper {
   position: fixed;
@@ -240,7 +244,7 @@ body {
   right: -25px;
   background: #ddd;
   border-radius: 50%;
-  box-shadow: inset 6px 6px 12px rgba(119, 102, 8, 0.685);
+  box-shadow: inset 4px 6px 12px rgba(119, 102, 8, 0.685);
 }
 
 /* bottom-nav */
@@ -290,17 +294,18 @@ body {
   left: 12%;
   bottom: 32%;
   height: 250px;
-  width: 75vw;
+  width: 150px;
   border: groove 3px rgba(128, 113, 47, 0.842);
   box-shadow: inset 0 0 34px rgba(71, 75, 35, 0.527), 0px 20px 42px rgb(0, 0, 0);
   border-radius: 20px;
   background: rgba(146, , 83, 0.589);
 }
 .test-card img {
-  height: 250px;
-  width: 75vw;
+  height: 240px;
+  width: 140px;
   border-radius: 20px;
-  box-shadow: inset 0 0 50px white;
+  box-shadow: inset 0 0 4px rgba(209, 231, 4, 0.541);
+  padding: 5px;
 }
 .test-card-image-slider img {
   margin-left: 10px;
@@ -309,14 +314,19 @@ body {
   cursor: pointer;
 }
 .test-card-data-overlay {
+  border: solid 1px rgb(90, 78, 11);
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 75vw;
-  height: 250px;
+  width: 128px;
+  height: 228px;
   color: rgba(211, 212, 104, 0.74);
   text-shadow: 0 0 1px yellow;
-  padding: 12px;
+  padding-left: 12px;
+  padding-top: 12px;
+  margin: 4px;
+  border-radius: 18px;
+  box-shadow: inset 0 0 6px rgb(121, 107, 28), 0 0 3px gold;
 }
 .test-card-data-overlay h2 {
   font-size: 1.8rem;
